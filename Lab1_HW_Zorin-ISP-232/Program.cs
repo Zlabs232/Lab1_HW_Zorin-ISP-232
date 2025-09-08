@@ -27,6 +27,14 @@
 
             Console.WriteLine($"Привет, {name}!\nТебе {age} лет.\nТвой любимый язык программирования: {PL}.");
 
+            //Task 3
+            Console.WriteLine("Введите коэффиценты a, b, c: ");
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int c = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Выражение f(x) = ax^2 + bx + c с подставленными значениями = {a * Math.Pow(5,2) + b * 5 + c}");
+
 
         }
     }
